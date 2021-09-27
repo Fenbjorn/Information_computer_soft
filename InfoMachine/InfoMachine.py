@@ -30,7 +30,7 @@ frame = Frame(window)
 
 # Image
 
-img = PhotoImage(file="logo_malichaud.png")
+img = PhotoImage(file="logo.png")
 
 labelImg = Label(window, image=img)
 
