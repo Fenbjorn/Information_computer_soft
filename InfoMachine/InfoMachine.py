@@ -22,7 +22,7 @@ window.geometry("800x400")
 
 window.minsize(700, 400)
 
-window.iconbitmap("Icone_info.ico")
+window.iconbitmap("Votre icone en .ico")
 
 # création de la frame
 
@@ -30,7 +30,7 @@ frame = Frame(window)
 
 # Image
 
-img = PhotoImage(file="logo.png")
+img = PhotoImage(file="Votre logo en .png/.jpeg/.jpg")
 
 labelImg = Label(window, image=img)
 
